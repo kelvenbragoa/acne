@@ -55,8 +55,8 @@
                     <div class="top-content-wrap row">
                         <div class="col-sm-8">
                             <ul class="left-info">
-                                <li><a href="#"><i class="ti-email"></i>info@acne.co.mz</a></li>
-                                <li><a href="#"><i class="ti-mobile"></i>+258 8000000</a></li>
+                                <li><a href="#"><i class="ti-email"></i>acnefundacao@gmail.com</a></li>
+                                <li><a href="#"><i class="ti-mobile"></i>+258 84 879 7215</a></li>
                             </ul>
                         </div>
                         <div class="col-sm-4 d-none d-md-block">

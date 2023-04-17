@@ -30,8 +30,8 @@
                 <div class="widget-content">
                     <h3>Charitify Location</h3>
                     <ul class="address">
-                        <li><i class="ti-email"></i> Info@acne.co.mz</li>
-                        <li><i class="ti-mobile"></i> +258 8400000</li>
+                        <li><i class="ti-email"></i>acnefundacao@gmail.com</li>
+                        <li><i class="ti-mobile"></i> +258 84 879 7215</li>
                         <li><i class="ti-world"></i> www.acne.co.mz</li>
                         <li><i class="ti-location-pin"></i> Mozambique, Beira</li>
                     </ul>

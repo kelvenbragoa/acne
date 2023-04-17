@@ -25,8 +25,8 @@
                     <p>ACNE é uma pessoa colectiva de direito privado, sem fins lucrativos, dotado de autonomia administrativa, financeira e patrimonial, com Sede em Maputo e com Delegação na cidade de Mocuba, na província da Zambézia, constituída e inscrita no Cartório Notarial de Maputo.</p>
                     <ul>
                         <li><i class="ti-location-pin"></i> Mozambique, Sofala</li>
-                        <li><i class="ti-mobile"></i> +258 840000</li>
-                        <li><i class="ti-email"></i> info@acne.co.mz</li>
+                        <li><i class="ti-mobile"></i> +258 84 879 7215</li>
+                        <li><i class="ti-email"></i> acnefundacao@gmail.com</li>
                     </ul>
                 </div>
             </div>
