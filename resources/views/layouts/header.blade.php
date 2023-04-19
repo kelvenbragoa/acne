@@ -37,6 +37,7 @@
         <link rel="stylesheet" href="{{asset('template/css/main.css')}}">
 		<!-- Responsive CSS -->
         <link rel="stylesheet" href="{{asset('template/css/responsive.css')}}">
+        
 
         <script src="{{asset('template/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js')}}"></script>
     </head>
@@ -56,7 +57,8 @@
                         <div class="col-sm-8">
                             <ul class="left-info">
                                 <li><a href="#"><i class="ti-email"></i>acnefundacao@gmail.com</a></li>
-                                <li><a href="#"><i class="ti-mobile"></i>+258 84 879 7215</a></li>
+                                <li><a href="#"><i class="ti-mobile"></i>+258 84 879 7215 / 84 487 5800</a></li>
+                               
                             </ul>
                         </div>
                         <div class="col-sm-4 d-none d-md-block">
@@ -64,9 +66,9 @@
                                 <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
-                                <li><a href="#"><i class="fa fa-pinterest"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
                             </ul>
+                            
                         </div>
                     </div>
                 </div>
@@ -77,15 +79,26 @@
                         <div class="col-sm-4">
                             <div class="site-branding">
                                 {{-- <a href="#"><img src="{{asset('template/img/logo.png')}}" alt="Brand"></a> --}}
-                                <h2><strong>ACNE</strong></h2>
+                                <h1><strong>ACNE</strong></h1>
                             </div>
                         </div>
                        <div class="col-sm-8 text-right">
                            <ul id="mainmenu" class="nav navbar-nav nav-menu">
-                                <li> <a href="/">Inicio</a></li>
-                                <li><a href="{{route('about')}}">Acerca de nós</a></li>
-                                <li><a href="{{route('cause')}}">Causas</a></li>
-                                <li> <a href="{{route('contact')}}">Contactos</a></li>
+                                <li> <a href="/">{{__('text.home')}}</a></li>
+                                <li><a href="{{route('about')}}">{{__('text.about_us')}}</a></li>
+                                <li><a href="{{route('cause')}}">{{__('text.cause')}}</a></li>
+                                <li> <a href="{{route('contact')}}">{{__('text.contact')}}</a></li>
+                                <li><a href="#">{{ Config::get('languages')[App::getLocale()] }}</a> 
+                                    <ul>
+                                        @foreach (Config::get('languages') as $lang => $language)
+                                        @if ($lang != App::getLocale())
+                                        <li><a href="{{ route('lang.switch', $lang) }}">{{$language}}</a></li>
+                                                
+                                        @endif
+                                        @endforeach
+                                      
+                                    </ul>
+                                </li>
                             </ul>
                             
                        </div>

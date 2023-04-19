@@ -24,3 +24,4 @@ Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name
 Route::get('/about', [App\Http\Controllers\FrontEndController::class, 'about'])->name('about');
 Route::get('/contact', [App\Http\Controllers\FrontEndController::class, 'contact'])->name('contact');
 Route::get('/cause', [App\Http\Controllers\FrontEndController::class, 'cause'])->name('cause');
+Route::get('lang/{lang}', ['as' => 'lang.switch', 'uses' => 'App\Http\Controllers\LanguageController@switchLang']);

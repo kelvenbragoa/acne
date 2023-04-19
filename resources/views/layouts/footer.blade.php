@@ -5,7 +5,7 @@
                 <div class="widget-content">
                     {{-- <img src="{{asset('template/img/logo-light.png')}}" alt="logo"> --}}
                     <h3>ACNE</h3>
-                    <p>Associação Criança Nossa Esperança</p>
+                    <p>{{__('text.acne')}}</p>
                     <ul class="social-icon">
                         <li><a href="#"><i class="fa fa-facebook"></i></a></li>
                         <li><a href="#"><i class="fa fa-twitter"></i></a></li>
@@ -17,23 +17,24 @@
             </div>
             <div class="col-md-4 xs-padding">
                 <div class="widget-content">
-                    <h3>Campanhas Recentes</h3>
+                    <h3>{{__('text.recent_campaign')}}</h3>
                     <ul class="widget-link">
-                        <li><a href="#">Construção de escola no verão. <span>-1 Ano atrás</span></a></li>
+                        {{--<li><a href="#">Construção de escola no verão. <span>-1 Ano atrás</span></a></li>
                         <li><a href="#">Campanha de construção de furro de água. <span>-2 Anos atrás</span></a></li>
-                        {{-- <li><a href="#">Clean-water system for rural poor. <span>-2 Year Ago</span></a></li>
+                         <li><a href="#">Clean-water system for rural poor. <span>-2 Year Ago</span></a></li>
                         <li><a href="#">Nepal earthqueak donation campaigns. <span>-3 Year Ago</span></a></li> --}}
                     </ul>
                 </div>
             </div>
             <div class="col-md-4 xs-padding">
                 <div class="widget-content">
-                    <h3>Charitify Location</h3>
+                    <h3>{{__('text.location')}}</h3>
                     <ul class="address">
                         <li><i class="ti-email"></i>acnefundacao@gmail.com</li>
                         <li><i class="ti-mobile"></i> +258 84 879 7215</li>
+                        <li><i class="ti-mobile"></i> +258 84 487 5800</li>
                         <li><i class="ti-world"></i> www.acne.co.mz</li>
-                        <li><i class="ti-location-pin"></i> Mozambique, Beira</li>
+                        <li><i class="ti-location-pin"></i> Mozambique, Mocuba</li>
                     </ul>
                 </div>
             </div>

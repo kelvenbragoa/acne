@@ -5,8 +5,8 @@
     <div class="container">
         <div class="hero-content">
             <h4>ACNE</h4>
-            <h1>ASSOCIAÇÃO CRIANÇA NOSSA ESPERANÇA</h1>
-            <p>Contribuindo para a promoção dos direitos humanos das crianças e da rapariga.</p>
+            <h1>{{__('text.acne')}}</h1>
+            <p>{{__('text.header_title')}}</p>
             {{-- <a href="" class="default-btn">Join With Us</a> --}}
         </div>
     </div>
@@ -18,24 +18,24 @@
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="promo-content">
                         <img src="{{asset('template/img/icon-1.png')}}" alt="prmo icon">
-                        <h3>Nossa Visão</h3>
-                        <p>Criar um mundo saudável e seguro para crianças vulneráveis, através de advocacia, aconselhamento, criação de condições para melhoria da qualidade de vida das comunidades, em particular para as crianças, adolescentes e jovens.</p>
+                        <h3>{{__('text.our_vision')}}</h3>
+                        <p>{{__('text.vision')}}</p>
                         
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="promo-content">
                         <img src="{{asset('template/img/icon-2.png')}}" alt="prmo icon">
-                        <h3>Nossa Missão</h3>
-                        <p>Melhorar a qualidade de vida das crianças vulneráveis, adolescentes e jovens nas comunidades, Vilas e Localidades do nosso país.</p>
+                        <h3>{{__('text.our_mission')}}</h3>
+                        <p>{{__('text.mission')}}</p>
                         
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 xs-padding">
                     <div class="promo-content">
                         <img src="{{asset('template/img/icon-3.png')}}" alt="prmo icon">
-                        <h3>Nossos Valores</h3>
-                        <p>Falta da descrição dos valores da associação.</p>
+                        <h3>{{__('text.our_values')}}</h3>
+                        <p>{{__('text.values')}}</p>
                         
                         
                     </div>
@@ -47,9 +47,9 @@
 <section class="causes-section bg-grey bd-bottom padding">
     <div class="container">
         <div class="section-heading text-center mb-40">
-            <h2>Causas Recentes</h2>
+            <h2>{{__('text.recent_causes')}}</h2>
             <span class="heading-border"></span>
-            <p>Contribuindo para a promoção dos direitos humanos das crianças e da rapariga</p>
+            <p>{{__('text.header_title')}}</p>
         </div><!-- /Section Heading -->
         <div class="causes-wrap row">
             <div class="col-md-4 xs-padding">
@@ -60,8 +60,8 @@
                        
                    </div>
                     <div class="causes-details">
-                        <h3>Visita a comunidade.</h3>
-                        <p>Visita a comunidade na provincia de sofala distrito de buzi!</p>
+                        <h3>{{__('text.meeting')}}</h3>
+                        <p>{{__('text.meeting_community')}}</p>
                        
                     </div>
                 </div>
@@ -74,8 +74,8 @@
                        
                    </div>
                     <div class="causes-details">
-                        <h3>Visita a comunidade.</h3>
-                        <p>Visita a comunidade na provincia de sofala distrito de buzi!</p>
+                        <h3>{{__('text.meeting')}}</h3>
+                        <p>{{__('text.meeting_community')}}</p>
                        
                     </div>
                 </div>
@@ -89,8 +89,8 @@
                        
                    </div>
                     <div class="causes-details">
-                        <h3>Visita a comunidade.</h3>
-                        <p>Visita a comunidade na provincia de sofala distrito de buzi!</p>
+                        <h3>{{__('text.meeting')}}</h3>
+                        <p>{{__('text.meeting_community')}}</p>
                        
                     </div>
                 </div>
