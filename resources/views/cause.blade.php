@@ -30,7 +30,7 @@
                             <div class="blog-content">
                                 <span class="date"><i class="fa fa-clock-o"></i>2023</span>
                                 <h3><a href="#">{{__('text.meeting')}}</a></h3>
-                                <p>{{__('text.meeting_community')}}</p>
+                                <p>{{__('text.meeting_community1')}}</p>
                                 
                             </div>
                         </div>
@@ -41,7 +41,7 @@
                             <div class="blog-content">
                                 <span class="date"><i class="fa fa-clock-o"></i>2023</span>
                                 <h3><a href="#">{{__('text.meeting')}}</a></h3>
-                                <p>{{__('text.meeting_community')}}</p>
+                                <p>{{__('text.meeting_community2')}}</p>
                             </div>
                         </div>
                     </div><!-- Post 2 -->
@@ -51,7 +51,7 @@
                             <div class="blog-content">
                                 <span class="date"><i class="fa fa-clock-o"></i>2023</span>
                                 <h3><a href="#">{{__('text.meeting')}}</a></h3>
-                                <p>{{__('text.meeting_community')}}</p>
+                                <p>{{__('text.meeting_community3')}}</p>
                             </div>
                         </div>
                     </div><!-- Post 3 -->

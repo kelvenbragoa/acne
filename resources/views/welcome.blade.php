@@ -61,7 +61,7 @@
                    </div>
                     <div class="causes-details">
                         <h3>{{__('text.meeting')}}</h3>
-                        <p>{{__('text.meeting_community')}}</p>
+                        <p>{{__('text.meeting_community1')}}</p>
                        
                     </div>
                 </div>
@@ -75,7 +75,7 @@
                    </div>
                     <div class="causes-details">
                         <h3>{{__('text.meeting')}}</h3>
-                        <p>{{__('text.meeting_community')}}</p>
+                        <p>{{__('text.meeting_community2')}}</p>
                        
                     </div>
                 </div>
@@ -90,7 +90,7 @@
                    </div>
                     <div class="causes-details">
                         <h3>{{__('text.meeting')}}</h3>
-                        <p>{{__('text.meeting_community')}}</p>
+                        <p>{{__('text.meeting_community3')}}</p>
                        
                     </div>
                 </div>
